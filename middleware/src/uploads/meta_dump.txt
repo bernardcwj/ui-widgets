@@ -1,0 +1,968 @@
+{
+   "clipping-1": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21,
+            595
+         ],
+         "to": [
+            779,
+            654
+         ]
+      },
+      "dimensions": {
+         "height": 59,
+         "width": 758
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_835",
+      "text": "search",
+      "widget_class": "Button"
+   },
+   "clipping-10": {
+      "clickable": "true",
+      "content-desc": "Offer Details Link",
+      "coordinates": {
+         "from": [
+            662,
+            974
+         ],
+         "to": [
+            768,
+            997
+         ]
+      },
+      "dimensions": {
+         "height": 23,
+         "width": 106
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_839",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-11": {
+      "clickable": "true",
+      "content-desc": " Discover 146 Special Deals Link",
+      "coordinates": {
+         "from": [
+            272,
+            834
+         ],
+         "to": [
+            556,
+            877
+         ]
+      },
+      "dimensions": {
+         "height": 43,
+         "width": 284
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_651",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-12": {
+      "clickable": "true",
+      "content-desc": "dealBGImage Link",
+      "coordinates": {
+         "from": [
+            153,
+            445
+         ],
+         "to": [
+            800,
+            818
+         ]
+      },
+      "dimensions": {
+         "height": 373,
+         "width": 647
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_651",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-13": {
+      "clickable": "true",
+      "content-desc": "Refer and Earn Link",
+      "coordinates": {
+         "from": [
+            745,
+            316
+         ],
+         "to": [
+            800,
+            379
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 55
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_651",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-14": {
+      "clickable": "true",
+      "content-desc": "Flight+Hotel Link",
+      "coordinates": {
+         "from": [
+            745,
+            124
+         ],
+         "to": [
+            800,
+            187
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 55
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_651",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-15": {
+      "clickable": "true",
+      "content-desc": "Link",
+      "coordinates": {
+         "from": [
+            13,
+            47
+         ],
+         "to": [
+            157,
+            92
+         ]
+      },
+      "dimensions": {
+         "height": 45,
+         "width": 144
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_651",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-16": {
+      "clickable": "true",
+      "content-desc": "http://www.makemytrip.com/international-flights/ Link",
+      "coordinates": {
+         "from": [
+            274,
+            1194
+         ],
+         "to": [
+            639,
+            1215
+         ]
+      },
+      "dimensions": {
+         "height": 21,
+         "width": 365
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_592",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-17": {
+      "clickable": "true",
+      "content-desc": "MakeMyTrip.com Link",
+      "coordinates": {
+         "from": [
+            162,
+            1141
+         ],
+         "to": [
+            288,
+            1162
+         ]
+      },
+      "dimensions": {
+         "height": 21,
+         "width": 126
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_592",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-18": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            8,
+            537
+         ],
+         "to": [
+            792,
+            597
+         ]
+      },
+      "dimensions": {
+         "height": 60,
+         "width": 784
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1503",
+      "text": "Save",
+      "widget_class": "Button"
+   },
+   "clipping-19": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            600,
+            1156
+         ],
+         "to": [
+            800,
+            1213
+         ]
+      },
+      "dimensions": {
+         "height": 57,
+         "width": 200
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1501",
+      "text": "Settings",
+      "widget_class": "Button"
+   },
+   "clipping-2": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            400,
+            553
+         ],
+         "to": [
+            773,
+            626
+         ]
+      },
+      "dimensions": {
+         "height": 73,
+         "width": 373
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_793",
+      "text": "DONE",
+      "widget_class": "Button"
+   },
+   "clipping-20": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            1156
+         ],
+         "to": [
+            200,
+            1213
+         ]
+      },
+      "dimensions": {
+         "height": 57,
+         "width": 200
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1501",
+      "text": "Trans.",
+      "widget_class": "Button"
+   },
+   "clipping-21": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            672,
+            537
+         ],
+         "to": [
+            792,
+            597
+         ]
+      },
+      "dimensions": {
+         "height": 60,
+         "width": 120
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1498",
+      "text": "Continue",
+      "widget_class": "Button"
+   },
+   "clipping-22": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            727,
+            167
+         ],
+         "to": [
+            780,
+            217
+         ]
+      },
+      "dimensions": {
+         "height": 50,
+         "width": 53
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1498",
+      "text": "Rep/Inst.",
+      "widget_class": "Button"
+   },
+   "clipping-23": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            400,
+            1065
+         ],
+         "to": [
+            599,
+            1145
+         ]
+      },
+      "dimensions": {
+         "height": 80,
+         "width": 199
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1477",
+      "text": "",
+      "widget_class": "Button"
+   },
+   "clipping-24": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            74,
+            769
+         ],
+         "to": [
+            141,
+            822
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 67
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1477",
+      "text": "ARS",
+      "widget_class": "Button"
+   },
+   "clipping-25": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            769
+         ],
+         "to": [
+            67,
+            822
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 67
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1477",
+      "text": "US$",
+      "widget_class": "Button"
+   },
+   "clipping-26": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            684,
+            33
+         ],
+         "to": [
+            800,
+            100
+         ]
+      },
+      "dimensions": {
+         "height": 67,
+         "width": 116
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1448",
+      "text": "Monthly",
+      "widget_class": "Button"
+   },
+   "clipping-27": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            720,
+            114
+         ],
+         "to": [
+            792,
+            154
+         ]
+      },
+      "dimensions": {
+         "height": 40,
+         "width": 72
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1407",
+      "text": "Pay",
+      "widget_class": "Button"
+   },
+   "clipping-28": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            641,
+            114
+         ],
+         "to": [
+            713,
+            154
+         ]
+      },
+      "dimensions": {
+         "height": 40,
+         "width": 72
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1407",
+      "text": "Edit",
+      "widget_class": "Button"
+   },
+   "clipping-29": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            562,
+            114
+         ],
+         "to": [
+            634,
+            154
+         ]
+      },
+      "dimensions": {
+         "height": 40,
+         "width": 72
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1407",
+      "text": "Stats",
+      "widget_class": "Button"
+   },
+   "clipping-3": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            683,
+            581
+         ],
+         "to": [
+            800,
+            634
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 117
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_783",
+      "text": "VIEW ALL",
+      "widget_class": "Button"
+   },
+   "clipping-30": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            7,
+            1103
+         ],
+         "to": [
+            124,
+            1143
+         ]
+      },
+      "dimensions": {
+         "height": 40,
+         "width": 117
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1361",
+      "text": "Remove Ads.",
+      "widget_class": "Button"
+   },
+   "clipping-31": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            0,
+            278
+         ],
+         "to": [
+            266,
+            365
+         ]
+      },
+      "dimensions": {
+         "height": 87,
+         "width": 266
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1361",
+      "text": "Feedback",
+      "widget_class": "Button"
+   },
+   "clipping-32": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            646,
+            686
+         ],
+         "to": [
+            779,
+            732
+         ]
+      },
+      "dimensions": {
+         "height": 46,
+         "width": 133
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1262",
+      "text": "1 Point",
+      "widget_class": "Button"
+   },
+   "clipping-33": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21,
+            381
+         ],
+         "to": [
+            779,
+            441
+         ]
+      },
+      "dimensions": {
+         "height": 60,
+         "width": 758
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1262",
+      "text": "Go to \u201cHelp\u201d.",
+      "widget_class": "Button"
+   },
+   "clipping-34": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21,
+            308
+         ],
+         "to": [
+            779,
+            368
+         ]
+      },
+      "dimensions": {
+         "height": 60,
+         "width": 758
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1262",
+      "text": "Send code to messengers.",
+      "widget_class": "Button"
+   },
+   "clipping-35": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            20,
+            341
+         ],
+         "to": [
+            780,
+            401
+         ]
+      },
+      "dimensions": {
+         "height": 60,
+         "width": 760
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1195",
+      "text": "Premium Upgrade",
+      "widget_class": "Button"
+   },
+   "clipping-36": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            727,
+            220
+         ],
+         "to": [
+            780,
+            265
+         ]
+      },
+      "dimensions": {
+         "height": 45,
+         "width": 53
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1148",
+      "text": "US$",
+      "widget_class": "Button"
+   },
+   "clipping-37": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            188,
+            299
+         ],
+         "to": [
+            241,
+            352
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 53
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1043",
+      "text": "ARS",
+      "widget_class": "Button"
+   },
+   "clipping-38": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            128,
+            299
+         ],
+         "to": [
+            181,
+            352
+         ]
+      },
+      "dimensions": {
+         "height": 53,
+         "width": 53
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1043",
+      "text": "US$",
+      "widget_class": "Button"
+   },
+   "clipping-39": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            645,
+            121
+         ],
+         "to": [
+            725,
+            159
+         ]
+      },
+      "dimensions": {
+         "height": 38,
+         "width": 80
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_871",
+      "text": "Delete",
+      "widget_class": "Button"
+   },
+   "clipping-4": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            21,
+            1073
+         ],
+         "to": [
+            393,
+            1136
+         ]
+      },
+      "dimensions": {
+         "height": 63,
+         "width": 372
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_767",
+      "text": "SIGNUP",
+      "widget_class": "Button"
+   },
+   "clipping-40": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            695,
+            167
+         ],
+         "to": [
+            780,
+            217
+         ]
+      },
+      "dimensions": {
+         "height": 50,
+         "width": 85
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_706",
+      "text": "Every 2 weeks",
+      "widget_class": "Button"
+   },
+   "clipping-41": {
+      "clickable": "true",
+      "content-desc": "Meet Surrey, RMITUni, Birmingham, Queen Uni Belfast, Northumbria at Suntec Sat 8 Jul Link",
+      "coordinates": {
+         "from": [
+            87,
+            421
+         ],
+         "to": [
+            605,
+            439
+         ]
+      },
+      "dimensions": {
+         "height": 18,
+         "width": 518
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1361",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-42": {
+      "clickable": "true",
+      "content-desc": "Study Food Sc Overseas Link",
+      "coordinates": {
+         "from": [
+            87,
+            395
+         ],
+         "to": [
+            263,
+            415
+         ]
+      },
+      "dimensions": {
+         "height": 20,
+         "width": 176
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.realbyteapps.moneymanagerfree_293-output/stoat_fsm_output/ui\\S_1361",
+      "text": "",
+      "widget_class": "View"
+   },
+   "clipping-5": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            26,
+            1004
+         ],
+         "to": [
+            774,
+            1062
+         ]
+      },
+      "dimensions": {
+         "height": 58,
+         "width": 748
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_767",
+      "text": "Login with Facebook",
+      "widget_class": "Button"
+   },
+   "clipping-6": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            20,
+            611
+         ],
+         "to": [
+            780,
+            675
+         ]
+      },
+      "dimensions": {
+         "height": 64,
+         "width": 760
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_434",
+      "text": "SEARCH TRAINS",
+      "widget_class": "Button"
+   },
+   "clipping-7": {
+      "clickable": "true",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            277,
+            456
+         ],
+         "to": [
+            406,
+            521
+         ]
+      },
+      "dimensions": {
+         "height": 65,
+         "width": 129
+      },
+      "focusable": "true",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_56",
+      "text": "TWO MONTHS\nAugust",
+      "widget_class": "Button"
+   },
+   "clipping-8": {
+      "clickable": "false",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            368,
+            569
+         ],
+         "to": [
+            432,
+            633
+         ]
+      },
+      "dimensions": {
+         "height": 64,
+         "width": 64
+      },
+      "focusable": "false",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_834",
+      "text": "",
+      "widget_class": "ProgressBar"
+   },
+   "clipping-9": {
+      "clickable": "false",
+      "content-desc": "",
+      "coordinates": {
+         "from": [
+            376,
+            1058
+         ],
+         "to": [
+            423,
+            1105
+         ]
+      },
+      "dimensions": {
+         "height": 47,
+         "width": 47
+      },
+      "focusable": "false",
+      "leaf": true,
+      "src": "specificAPP\\com.jesusdigitalrd.jpcsim_1002001-output/stoat_fsm_output/ui\\S_575",
+      "text": "",
+      "widget_class": "ProgressBar"
+   }
+}
