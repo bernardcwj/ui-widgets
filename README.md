@@ -7,7 +7,7 @@ A collection of latest UI widget designs used in mobile apps from Google Play St
 
 ## Getting Started
 1. Clone the repository
-```
+```bash
 # Get the latest snapshot
 git clone https://github.com/bernardcwj/ui-widgets.git
 
@@ -24,12 +24,12 @@ cd ../middleware
 npm install
 ```
 2. Update `knexfile.js` with your MySQL configurations
-```
+```bash
 vim knexfile.js
 ```
 
 ## Deployment
-```
+```bash
 # Start the app
 node app.js
 ```
