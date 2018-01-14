@@ -43,8 +43,23 @@ var storage = multer.diskStorage({
 	}
 });
 
-var upload = multer({storage: storage});
+var upload = multer({
+	storage: storage,
+});
 
+/*
+fileFilter: function(req, file, cb) {
+		var filetypes = /png/;
+		var mimetype = filetypes.test(file.mimetype);
+    	var extname = filetypes.test(path.extname(file.originalname).toLowerCase());
+	
+    	if (mimetype && extname) 
+	    	cb(null, true);
+	    else
+	    	cb(null, false);
+	    //req.fileValidationError = "Error: File upload only supports the following filetypes - " + filetypes;
+
+	}*/
 
 router.get('/', function(req, res, next) {
 	console.log('Rendering...');
@@ -52,26 +67,96 @@ router.get('/', function(req, res, next) {
 	res.sendFile(path.resolve('C:\\Users\\user\\widget_space_frontend', 'index.html'));
 });
 
-router.get('/:widget', function(req, res, next) {
+router.get('/:widget/:page/:color?', function(req, res, next) {
+	console.log(req.params)
 	if(req.params.widget == 'all')
 	{
-		Widget.fetchAll({
+		/*Widget.fetchAll({
 			columns: ['filepath']
 		})
 		.then(function(widgets) {
 			res.json(widgets);
-		})
+		})*/
+		if(req.params.color)
+		{
+			console.log('all&&color')
+			Widget.
+			where({
+				'color': req.params.color,
+			})
+			.fetchPage({
+				pageSize: 15,
+				page: req.params.page,
+			})
+			.then(function(results) {
+				/*r = results.toJSON();
+				r.push({
+					pagination: results.pagination
+				});*/
+				res.json({
+					results: results.toJSON(),
+					pagination: results.pagination
+				})
+			})
+		}
+		else
+		{	
+			console.log('all')
+			Widget.fetchPage({
+				pageSize: 15,
+				page: req.params.page,
+			})
+			.then(function(results) {
+				/*r = results.toJSON();
+				r.push({
+					pagination: results.pagination
+				});*/
+				res.json({
+					results: results.toJSON(),
+					pagination: results.pagination
+				})
+			})
+		}
+
 	}
 	else
 	{
-		Widget
-			.where('widget_class', req.params.widget.charAt(0).toUpperCase() + req.params.widget.slice(1))
-			.fetchAll({
-				columns: ['filepath']
+		if(req.params.color)
+		{
+			Widget.
+			where({
+				'widget_class': req.params.widget.charAt(0).toUpperCase() + req.params.widget.slice(1),
+				'color': req.params.color,
 			})
-			.then(function(widgets) {
-				res.json(widgets);	
+			.fetchPage({
+				pageSize: 15,
+				page: req.params.page,
 			})
+			.then(function(results) {
+				res.json({
+					results: results.toJSON(),
+					pagination: results.pagination
+				})
+			})
+		}
+		else
+		{
+			Widget.
+			where({
+				'widget_class': req.params.widget.charAt(0).toUpperCase() + req.params.widget.slice(1),
+			})
+			.fetchPage({
+				pageSize: 15,
+				page: req.params.page,
+			})
+			.then(function(results) {
+				res.json({
+					results: results.toJSON(),
+					pagination: results.pagination
+				})
+			})
+		}
+	
 	}
 	
 });
@@ -100,12 +185,13 @@ router.post('/', upload.any(), function(req, res, next) {
 
 	for(var file of req.files)
 	{
-		if(file.originalname != 'meta_dump.txt')
+		if(file.originalname != 'meta_dump.txt' && file.originalname != 'statistics.txt' )
 		{
 			var entry = file.originalname.replace('.png', '');
 			new Widget({
 				widget_class: obj[entry]["widget_class"],
 				text: obj[entry]["text"],
+				color: obj[entry]["color"],
 				content_desc: obj[entry]["content-desc"],
 				width: obj[entry]["dimensions"]["width"],
 				height: obj[entry]["dimensions"]["height"],
@@ -113,13 +199,12 @@ router.post('/', upload.any(), function(req, res, next) {
 			})
 			.save()
 			.then(function(saved) {
-			});
+				res.sendStatus(200);
+			})
+			.catch(function(err) {
+				res.status(500).send(err)
+			})
 		}
-
-		/*var imagepath = {};
-		imagepath['path'] = file.path;
-		imagepath['originalname'] = file.originalname;
-		images.push(imagepath);*/
 	}
 
 
