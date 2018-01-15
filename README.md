@@ -91,4 +91,4 @@ node app.js
 Enter `http://localhost:3000` under Site URL
 
 ### Import data to MySQL
-Click on ![alt text](https://www.google.com.sg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjX1pbv39nYAhUIE5QKHfUvDVsQjRwIBw&url=https%3A%2F%2Fwww.materialui.co%2Ficon%2Ffile-upload&psig=AOvVaw3oHzkFAOKNvoXWBqkzSgAx&ust=1516098136801135 "File upload") and upload the folder `widget_clippings`
+Click on ![alt text](https://www.materialui.co/materialIcons/file/file_upload_black_144x144.png "File upload") and upload the folder `widget_clippings`
