@@ -59,16 +59,6 @@ widget_clippings
 |-- meta_dump.txt
 |-- statistics.txt
 ```
-
-```
-widget_clippings
-|-- Button
-	|-- clipping-*.png (Image files)
-|-- ImageButton
-|-- ProgressBar
-|--	...
-|-- meta_dump.txt (Metadata)
-```
 The `meta_dump.txt` contains information about all the widget clippings:
 ```
 {
